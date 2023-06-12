@@ -1,7 +1,6 @@
 # Embaixadores
 Repositório destinado ao Curso Embaixadores em Ação - Edutech 
-# Projetos em HTML e CSS
-  Todos os arquivos
+Projetos Desenvolvidos em HTML e CSS
 
 
 
