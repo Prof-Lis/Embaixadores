@@ -1,3 +1,46 @@
-body{
-    background-color: #107A9B;
+*{
+    padding: 0px;
+    margin: 0px;
 }
+
+body{
+    width: 1450px;
+
+}
+
+.cabecalho{
+    height: 250px;
+    background-color: #107A9B;
+    background: url("banner_site.png") no-repeat 0px 0px;
+}
+
+.titulo{
+    display: block;
+    text-transform: uppercase;
+    color:#107A9B;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    font-size: 40px;
+    text-align: left;
+    padding: 170px 10px 0px 10px;
+
+   
+}
+.corpo{
+    width: auto;
+    height: 60%;
+    background-color: #107A9B;
+    background-image: linear-gradient(#107A9B,#ffffff);
+}
+.rodape{
+    clear: both;
+    height: 90px;
+    width: 1450px;
+    display: inline-flex;
+    padding: 20px;
+    background-color: #107A9B;
+    color:#ffffff;
+    text-align: center;
+    vertical-align: middle;
+
+}
+ 
