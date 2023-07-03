@@ -40,7 +40,7 @@ body{
 }
 .rodape{
     clear: both;
-    background-color: #107A9B;
+    background-color: #074558;
     height: auto;
     width: auto;
     display: inline-flex;
@@ -49,4 +49,7 @@ body{
     text-align: center;
     vertical-align: middle;
 }
- 
+.rodape h4{
+    font-weight: lighter;
+    font-size: small;
+} 
