@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Special+Elite&display=swap');
 
 
 *{
@@ -54,6 +54,6 @@ body{
 .rodape h4{
     font-weight: lighter;
     font-size: small;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Special Elite', cursive;
     padding:30px;
 } 
