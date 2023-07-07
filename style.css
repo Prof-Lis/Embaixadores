@@ -64,6 +64,10 @@
     padding: 1.5em;
 
 }
+
+.portugues1, .ingles1, .matematica1, .edutech1, .robotica1, .desafio1{
+    list-style-type: none;
+}
 .rodape{
     clear: both;
     background-color: #074558;
