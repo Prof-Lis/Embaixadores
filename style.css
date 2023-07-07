@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 
 *{
@@ -6,78 +6,52 @@
     margin: 0px;
 }
 
-.cabecalho{
-    width: 100%;
-    position: relative;
-    height: 150px;
-    background-color: #107A9B;
-    line-height: 150px;
-    display: block;
+body{
+    width: 1440px;
 }
 
-.img1-cabecalho{
-    box-shadow: 2px 2px 4px rgba(255,255,255,0.5);
+.cabecalho{
+    height: 150px;
+    background: url("banner_site.png") no-repeat 0px 0px;
+    border-bottom: #ffffff;
+    line-height: 150px;
+    
+   
 }
-.img2-cabecalho{
-    box-shadow: 2px 2px 4px rgba(255,255,255,0.5);
-}
+
 .titulo{
-    position: absolute;
-    top: 0em;
-    font-family: 'Lilita One', cursive;
+    font-family: 'Fredericka the Great', cursiva;
     text-transform: uppercase;
-    color:#107a9b;
-    text-shadow: 2px 2px 4px rgba(16,122,155,0.3);
-    font-size: 3.3em;
+    color:#ffffff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    font-size: 40px;
     text-align: left;
     padding: 20px;
+    font-weight: lighter;
+
+   
 }
 .corpo{
-    width: 100%;
+    width: auto;
     height: auto;
+    background-color: #107A9B;
     background-image: linear-gradient(#107A9B,#ffffff);
     color:aliceblue;
-    font-family: 'Agdasima', sans-serif;
-    font-size: 1.5em;
-}
-
-.informa{
-    box-shadow: 0px 0px 4px rgba(255,255,255,0.5);
-    padding: 1.5em;
-
-}
-
-.lista{
-    padding: 0.5em 1.5em;
-    list-style-image: url("_img/marcador.png");
-}
-
-.plataformas{
-    box-shadow: 0px 0px 4px rgba(255,255,255,0.5);
-    padding: 1.5em;
-}
-
-.plataformas img{
-    width: 15%;
-    height: 150%;
-    /*box-shadow: 4px 4px 4px 4px rgba(255,255,255,0.5);*/
-    padding: 1.5em;
-
 }
 .rodape{
     clear: both;
     background-color: #074558;
     height: auto;
-    width: 100%;
+    width: 1420px;
     display: inline-flex;
-    padding: 1.5em;
+    padding: 10px;
     color:#ffffff;
     text-align: center;
     vertical-align: middle;
 }
+
 .rodape h4{
-    font-size: 1.2em;
     font-weight: lighter;
-    font-family: 'Agdasima', sans-serif;
-    padding: 1em;
-} 
+    font-size: small;
+    padding: 20px;
+}  
