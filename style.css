@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Lilita+One&display=swap');
 
 
 *{
@@ -6,52 +6,78 @@
     margin: 0px;
 }
 
-body{
-    width: 1440px;
-}
-
 .cabecalho{
+    width: 100%;
+    position: relative;
     height: 150px;
-    background: url("banner_site.png") no-repeat 0px 0px;
-    border-bottom: #ffffff;
+    background-color: #107A9B;
     line-height: 150px;
-    
-   
+    display: block;
 }
 
+.img1-cabecalho{
+    box-shadow: 2px 2px 4px rgba(255,255,255,0.5);
+}
+.img2-cabecalho{
+    box-shadow: 2px 2px 4px rgba(255,255,255,0.5);
+}
 .titulo{
-    font-family: 'Fredericka the Great', cursiva;
+    position: absolute;
+    top: 0em;
+    font-family: 'Lilita One', cursive;
     text-transform: uppercase;
-    color:#ffffff;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-    font-size: 40px;
+    color:#107a9b;
+    text-shadow: 2px 2px 4px rgba(16,122,155,0.3);
+    font-size: 3.3em;
     text-align: left;
     padding: 20px;
-    font-weight: lighter;
-
-   
 }
 .corpo{
-    width: auto;
+    width: 100%;
     height: auto;
-    background-color: #107A9B;
     background-image: linear-gradient(#107A9B,#ffffff);
     color:aliceblue;
+    font-family: 'Agdasima', sans-serif;
+    font-size: 1.5em;
+}
+
+.informa{
+    box-shadow: 0px 0px 4px rgba(255,255,255,0.5);
+    padding: 1.5em;
+
+}
+
+.lista{
+    padding: 0.5em 1.5em;
+    list-style-image: url("_img/marcador.png");
+}
+
+.plataformas{
+    box-shadow: 0px 0px 4px rgba(255,255,255,0.5);
+    padding: 1.5em;
+}
+
+.plataformas img{
+    width: 15%;
+    height: 150%;
+    /*box-shadow: 4px 4px 4px 4px rgba(255,255,255,0.5);*/
+    padding: 1.5em;
+
 }
 .rodape{
     clear: both;
     background-color: #074558;
     height: auto;
-    width: 1420px;
+    width: 100%;
     display: inline-flex;
-    padding: 10px;
+    padding: 1.5em;
     color:#ffffff;
     text-align: center;
     vertical-align: middle;
 }
-
 .rodape h4{
+    font-size: 1.2em;
     font-weight: lighter;
-    font-size: small;
-    padding: 20px;
-}  
+    font-family: 'Agdasima', sans-serif;
+    padding: 1em;
+} 
