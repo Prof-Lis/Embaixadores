@@ -12,7 +12,7 @@
     height: 150px;
     background-color: #107A9B;
     line-height: 150px;
-    display: block;
+    display: flex;
 }
 
 .img1-cabecalho{
@@ -33,7 +33,7 @@
     padding: 20px;
 }
 .corpo{
-    width: 100%;
+    width: auto;
     height: auto;
     background-image: linear-gradient(#107A9B,#ffffff);
     color:aliceblue;
@@ -53,24 +53,46 @@
 }
 
 .plataformas{
+    position: relative;
+    width: 100%;
     box-shadow: 0px 0px 4px rgba(255,255,255,0.5);
     padding: 1.5em;
+    display: inline-block;
+
 }
 
 .plataformas img{
-   padding: 1.5em;
+    position: relative;
+    top: 1em;
+    padding: 1em;
 
 }
 
-.portugues1, .ingles1, .matematica1, .edutech1, .robotica1, .desafio1{
+.menu-plataformas{
+    position: relative;
+    top: 1em;
     list-style-type: none;
+    display: inline-block;
 }
+
+.item-menu{
+    background-color: #074558;
+    padding: 0.5em;
+    line-height: 1.5;
+    font-size: 0.8em;
+    text-align: center;
+    border: #ffffff solid 2px;
+    text-transform: uppercase;
+    
+}
+
+
 .rodape{
     clear: both;
     background-color: #074558;
     height: auto;
     width: 100%;
-    display: inline-flex;
+    display: flex;
     padding: 1.5em;
     color:#ffffff;
     text-align: center;
