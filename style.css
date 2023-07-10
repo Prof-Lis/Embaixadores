@@ -49,7 +49,7 @@
 
 .lista{
     padding: 0.5em 1.5em;
-    list-style-image: url("_img/marcador.png");
+    list-style-image: url("marcador.png");
 }
 
 .plataformas{
@@ -58,9 +58,7 @@
 }
 
 .plataformas img{
-    width: 15%;
-    height: 150%;
-    /*box-shadow: 4px 4px 4px 4px rgba(255,255,255,0.5);*/
+    box-shadow: 4px 4px 4px 4px rgba(255,255,255,0.5);
     padding: 1.5em;
 
 }
