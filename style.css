@@ -13,6 +13,7 @@
     background-color: #107A9B;
     line-height: 150px;
     display: flex;
+    justify-content:left;
 }
 
 .img1-cabecalho{
@@ -39,33 +40,38 @@
     color:aliceblue;
     font-family: 'Agdasima', sans-serif;
     font-size: 1.5em;
+    text-align: justify;
 }
 
 .informa{
     box-shadow: 0px 0px 4px rgba(255,255,255,0.5);
-    padding: 1.5em;
-
+    padding: 1em;
+    display:block;
 }
 
+.aprendizagem{
+    position: relative;
+    padding: 1em;
+    width: 25%;
+    height: 25%;
+    float: right;   
+}
 .lista{
     padding: 0.5em 1.5em;
     list-style-image: url("marcador.png");
 }
 
 .plataformas{
-    position: relative;
-    width: 100%;
-    box-shadow: 0px 0px 4px rgba(255,255,255,0.5);
-    padding: 1.5em;
-    display: inline-block;
-
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    align-content: flex-start;
 }
 
 .plataformas img{
-    position: relative;
-    top: 1em;
     padding: 1em;
-
 }
 
 .menu-plataformas{
@@ -78,14 +84,13 @@
 .item-menu{
     background-color: #074558;
     padding: 0.5em;
-    line-height: 1.5;
     font-size: 0.8em;
     text-align: center;
     border: #ffffff solid 2px;
     text-transform: uppercase;
-    
+    margin-bottom: 0.5em;
+    width: 170px;    
 }
-
 
 .rodape{
     clear: both;
@@ -93,14 +98,35 @@
     height: auto;
     width: 100%;
     display: flex;
-    padding: 1.5em;
-    color:#ffffff;
-    text-align: center;
+    padding: 0.5em;
     vertical-align: middle;
+    justify-content: space-around;
 }
 .rodape h4{
+    color:#ffffff;
     font-size: 1.2em;
     font-weight: lighter;
     font-family: 'Agdasima', sans-serif;
-    padding: 1em;
+    padding: 0.3em;
 } 
+.esquerda{
+    width: 50%;
+    text-align: left;
+}
+
+.direita{
+    width: 13%;
+    float: right;
+    display: flex;
+    text-align: left;
+    justify-content:space-around; 
+    align-items: flex-start; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    align-content: flex-start;
+}
+
+.icones, .dados{
+    list-style-type: none;
+    line-height: 1em;
+}
