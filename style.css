@@ -90,10 +90,35 @@ body{
     margin-top: 1em;
     font-size: 1em;
     text-align: center;
-    border: #ffffff solid 2px;
+    box-shadow: 4px 4px 4px aliceblue;
     text-transform: uppercase;
     margin-bottom: 0.5em;
     width: 170px;    
+}
+
+a{
+    text-decoration: none;
+}
+
+.item-menu:hover{
+    background-color: aliceblue;
+    color:#074558;
+    text-decoration: underline;
+    box-shadow: inset 4px 4px 4px #074558;
+    font-weight: bold;
+
+}
+
+.fim{
+    height: 50px;
+    text-align: right;
+    padding: 10px;
+}
+
+.icone-inicio{
+   width: 3.5%;
+   
+
 }
 
 .rodape{
@@ -108,7 +133,7 @@ body{
 }
 .rodape h4{
     color:#ffffff;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: lighter;
     font-family: 'Agdasima', sans-serif;
     padding: 0.3em;
@@ -119,18 +144,17 @@ body{
 }
 
 .direita{
-    width: 13%;
     float: right;
     display: flex;
     text-align: left;
-    justify-content:space-around; 
-    align-items: flex-start; 
-    flex-direction: row; 
-    flex-wrap: wrap; 
-    align-content: flex-start;
+  
 }
 
 .icones, .dados{
-    list-style-type: none;
-    line-height: 1em;
+   list-style-type: none;
+   line-height: 1em;
+}
+
+.icones li{
+   padding: 5px 5px 2px 10px;
 }
